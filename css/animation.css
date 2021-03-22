@@ -1,0 +1,101 @@
+
+            .cd-intro-content .card,
+            .cd-intro-content .card-footer {
+              opacity: 0;
+              animation-delay: 0.5s;
+              animation-fill-mode: forwards;
+            }
+            
+
+            .cd-intro-content .footer {
+              height: 0%;
+              opacity: 0;
+              animation-delay: 1.2s;
+
+              animation-fill-mode: forwards;
+            }
+
+            .cd-intro-content .main-action {
+              height: 0%;
+              opacity: 0;
+              animation-delay: 2s;
+
+              animation-fill-mode: forwards;
+            }
+            .bouncy.cd-intro-content .card {
+              animation-name: cd-bounce-right;
+            }
+            
+            .bouncy.cd-intro-content .card-footer {
+              animation-name: cd-bounce-left;
+            }
+            
+            .bouncy.cd-intro-content .card,
+            .bouncy.cd-intro-content .card-footer {
+              animation-duration: 1s;
+            }
+            
+            .bouncy.cd-intro-content .footer {
+              animation-name: cd-bounce-rotate;
+              animation-duration: .5s;
+            }
+
+            .bouncy.cd-intro-content .main-action {
+              animation-name: cd-bounce-right;
+              animation-duration: .5s;
+            }
+            
+      
+            
+            @keyframes cd-bounce-right {
+              0% {
+                opacity: .2;
+                transform: rotateX(-200deg);
+              }
+              60% {
+                opacity: .7;
+                transform: rotateX(15deg);
+              }
+              100% {
+                opacity: 1;
+                transform: rotateX(0deg);
+              }
+            }
+            
+            @keyframes cd-bounce-left {
+              0% {
+                opacity: .2;
+                transform: rotateX(-200deg);
+              }
+              60% {
+                opacity: .7;
+                transform: rotateX(15deg);
+              }
+              100% {
+                opacity: 1;
+                transform: rotateX(0deg);
+              }
+            }
+            
+            @keyframes cd-bounce-rotate {
+              0% {
+                width: 40%;
+                opacity: .2;
+                transform: perspective(800px) rotateX(-80deg);
+              }
+              20% {
+                opacity: .5;
+
+              }
+              60% {
+                width: 90%;
+                opacity: .7;
+
+                transform: perspective(800px) rotateX(20deg);
+              }
+              100% {
+                width: 100%;
+                opacity: 1;
+                transform: perspective(800px) rotateX(0);
+              }
+            }

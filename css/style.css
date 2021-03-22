@@ -1,0 +1,378 @@
+@import url('https://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot');
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+
+html,body{
+    background-image: url('https://image.freepik.com/free-photo/frame-made-frame-rose-flowers-leaves-green-background_23-2148217790.jpg');    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Changa', sans-serif;
+}
+
+
+
+nav.nav {
+
+    padding: 0px;
+    background-color: #ffffff8c;
+    margin-bottom: 66px;
+    height: 50px;
+    direction: rtl;
+    background-color: rgb(248, 249, 250);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+
+}
+.input-group.form-group {
+    direction: rtl;
+}
+
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group>.input-group-append:last-child>.input-group-text:not(:last-child), .input-group>.input-group-append:not(:last-child)>.btn, .input-group>.input-group-append:not(:last-child)>.input-group-text, .input-group>.input-group-prepend>.btn, .input-group>.input-group-prepend>.input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -4px;
+    z-index: 1;
+}
+.card a 
+{
+    color: #ffffff;
+    transition: .1s ease;
+
+}
+
+.login a:hover 
+{
+    color: #eb8810;
+
+}
+
+
+
+
+.login img.d-inline-block.align-top
+{
+    width: 100%;
+    max-width: 225px;
+    margin: 0px;
+    right: 30%;
+    padding: 0px;
+    left: 30%;
+    margin: 0px;
+    /* margin-bottom: -49px; */
+    /* margin-top: -36px; */
+    top: -19px;
+    position: absolute;
+    margin-left: 23px;
+}
+
+.tab-content>.tab-pane {
+    padding: 28px;
+    line-height: 1.9;
+    background: #fff;
+    text-align: right;
+}
+
+.form-control
+{
+    text-align: right;
+}
+
+.row
+{
+    margin: 0px;
+}
+.logo1
+{
+    float: right!important;
+    max-width: 69px!important;
+    height: 65px!important;
+    margin-top: 1px!important;
+    padding: 5px!important;
+    
+
+}
+.logo2
+{
+    float: left;
+}
+
+.bottom-logo
+
+{
+    width: 100%;
+    max-width: max-content;
+}
+
+
+
+.card{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: transparent!important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.main-action img {
+    max-width: 400px!important;
+}
+
+
+.card-header h3{
+    color: white;
+}
+
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #eb8810;
+    color: #ffffff;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: rgb(255, 255, 255);
+    background-color: #eb8810;
+}
+
+.login_btn:hover{
+    color: #eb8810;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+
+
+h1.head-footer {
+   
+
+}
+
+
+.head-footer {
+    text-align: center;
+    
+    background: linear-gradient(to right, #ffffff 20%, #ffffff 30%, #eea03a 40%, #333 60%, #f56a1a 80%, #f5211a 90%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+    animation:  3s ease-out 2.5s 5000 shine ;
+   
+    }
+  
+    @keyframes shine {
+        to {
+          background-position: 200% center;
+        }
+    }
+
+
+
+button.btn.float-right.login_btn {
+    margin: 0 auto;
+}
+.center-logo
+{
+    max-width: 90px!important;
+    margin: 0 auto!important;
+    height: 90px!important;
+    margin-top: -80px!important;
+    /* background-color: rgba(0, 0, 0, 0.16); */
+    /* padding: 9px!important; */
+    /* background-clip: border-box; */
+    /* border: 1px solid rgba(0, 0, 0, 0.16); */
+    /* border-radius: .25rem; */
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: -28px;
+}
+
+.go-right
+{
+    margin-left: -47px;
+    margin-right: -18px;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 12px;
+    margin: 14px;
+    background-color: rgba(46, 49, 48, 0.3) !important;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 34px;
+    background-color: transparent!important;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+      0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+
+
+
+
+
+
+/*  Responsive Screen  */
+
+/* max 770  */
+
+@media (max-width:770px)
+{
+   .nav .logo2
+   {
+
+   }
+
+   .nav .logo1
+   {
+    padding: 10px!important;
+    margin-top: -13px!important;
+
+   }
+
+   .nav
+   {
+   }
+}
+
+@media (max-width:650px)
+{
+   .col-logo 
+   {
+       display: none;
+   }
+
+   .nav-profile
+   {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+   }
+}
+
+@media (max-width:560px)
+{
+    .sm-no-p
+    {
+        padding-left: 0!important;
+        padding-right: 0!important;
+        width: auto!important;
+    }
+    .sm-no-p-col
+    {
+       width: auto!important;
+       padding-right: 7px!important;
+       padding-left: 0!important;
+}
+}
+
+/* max 435  */
+
+@media (max-width:435px)
+{
+
+}
+
+
+
+
+/* max 360  */
+
+@media (max-width: 1007px)
+{
+   
+    h1.head-footer {
+        font-size: 21px!important;
+        padding-top: 5px!important;
+    }
+  
+}
+@media (max-width: 765px)
+{
+   
+    .footer {
+        width: 100%;
+        max-width: 586px!important;
+        margin-left: 0px!important;
+
+    }
+
+    .d-flex
+    {
+        max-width: 400px!important;
+        margin: 0 auto!important;
+    }
+    .main-action img {
+        max-width: 307px!important;
+    }
+    
+    body 
+    {
+        background-image: url(../imgs/bg-res.png)!important;
+    }
+
+    .custom-lb {
+        margin-right: 8px!important;
+        padding-left: 12px!important;
+    }
+
+    #mother, #father {
+    margin-right: -7%!important;
+
+    }
+  
+}
+
+
+@media (max-width: 960px)
+{
+   
+    .custom-lb2 {
+        display: contents!important;
+
+    }
+    body 
+    {
+        background-size: 100% 121%!important;
+
+    }
+
+}
+
+
